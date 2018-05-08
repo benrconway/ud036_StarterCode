@@ -1,6 +1,5 @@
-# As per the requirements of our Project, this file will contain the class for
-# our movie listing website
-
+# This is my Movie class, it takes in a title, and urls for both
+# poster art and youtube trailer. 
 class Movie():
     def __init__(self, title, poster_url, trailer_url):
         self.title = title
